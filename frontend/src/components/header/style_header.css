@@ -1,0 +1,32 @@
+
+.kasa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: white;
+}
+
+.kasa-logo img {
+  height: 68px;
+  width: 100%;
+}
+
+
+.kasa-nav{
+  display: flex;
+  gap: 50px;
+}
+
+
+.kasa-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+
+.kasa-link-active {
+  text-decoration: underline;
+}
