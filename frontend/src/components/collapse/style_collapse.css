@@ -1,0 +1,26 @@
+.collapse{
+  margin: 30px 210px;
+}
+
+.title-collapse{ 
+  border-radius: 5px;
+  height: 52px; 
+  padding: 0 16px;  
+  background-color: #ff6060;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.title-collapse i {
+  font-size: 32px; 
+}
+
+.content-collapse{
+  padding: 1px 15px;
+  font-size: 18px;
+  background-color: #f6f6f6;
+}
