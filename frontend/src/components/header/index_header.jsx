@@ -10,21 +10,12 @@ function Header() {
       </div>
       <nav className="kasa-nav">
         <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? "kasa-link kasa-link-active" : "kasa-link"
-          }
-        >
-          Accueil
+          to="/">
+          <div>Accueil</div>
         </NavLink>
         <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive ? "kasa-link kasa-link-active" : "kasa-link"
-          }
-        >
-          A propos
+          to="/about">
+         <div>A propos</div>
         </NavLink>
       </nav>
     </header>

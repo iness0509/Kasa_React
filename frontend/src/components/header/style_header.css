@@ -12,21 +12,21 @@
   width: 100%;
 }
 
-
-.kasa-nav{
+.kasa-nav {
   display: flex;
   gap: 50px;
-}
-
-
-.kasa-link {
-  text-decoration: none;
-  color: #000000;
   font-weight: 500;
   font-size: 24px;
 }
 
-
-.kasa-link-active {
-  text-decoration: underline;
+.kasa-nav a {
+  text-decoration: none;
+  color: #000000;
 }
+
+.kasa-nav a.active{
+   text-decoration: underline;
+}
+
+
+
