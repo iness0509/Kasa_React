@@ -1,0 +1,16 @@
+.apartment-container {
+  margin: 20px 100px;
+}
+
+.apartment-header h1 {
+  font-size: 36px;
+  color: #ff6060;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.apartment-header p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
