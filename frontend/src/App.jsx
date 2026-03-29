@@ -4,7 +4,7 @@ import Footer from "./components/footer/index_footer";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Apartment from "./pages/apartment";
-
+import NotFound from "./pages/not-found";
 
 function App() {
   return (
@@ -14,10 +14,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-           <Route path="/apartment/:id" element={<Apartment />} />
+          <Route path="/apartment/:id" element={<Apartment />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-       <Footer />
+      <Footer />
     </BrowserRouter>
   );
 }
