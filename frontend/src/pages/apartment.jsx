@@ -22,7 +22,7 @@ function Apartment() {
   } = useFetch(`${API_BASE_URL}/properties/${id}`);
 
   useEffect(() => {
-    // si erreur (404, 500, réseau...), on redirige vers la 404
+    // si erreur (404, 500, réseau...): redirection vers la 404
     if (error) {
       navigate("/404", { replace: true });
     }
@@ -32,7 +32,7 @@ function Apartment() {
   if (!apartment) return null; 
 
   return (
-    <main className="apartment-container">
+    <>
       <Slider pictures={apartment.pictures} />
       <section className="apartment-header">
         <div className="apartment-info">
@@ -60,7 +60,7 @@ function Apartment() {
           </ul>
         </Collapse>
       </section>
-    </main>
+    </>
   );
 }
 

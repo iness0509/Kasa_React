@@ -19,3 +19,10 @@
   font-weight: 700;
   line-height: 1;
 }
+
+@media (max-width: 768px) {
+.tag-item {
+  width: 130px;
+  font-size: 12px;
+}
+}

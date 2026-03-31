@@ -1,11 +1,11 @@
-.collapse{
-  margin: 30px 210px;
+.collapse {
+  margin: 30px 115px;
 }
 
-.title-collapse{ 
+.title-collapse {
   border-radius: 5px;
-  height: 52px; 
-  padding: 0 16px;  
+  height: 52px;
+  padding: 0 16px;
   background-color: #ff6060;
   color: white;
   display: flex;
@@ -16,18 +16,54 @@
 }
 
 .title-collapse i {
-  font-size: 32px; 
+  font-size: 24px;
 }
 
-.content-collapse{
+.content-collapse {
   padding: 1px 15px;
   font-size: 18px;
+  line-height: 1.5;
   background-color: #f6f6f6;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.6s ease;
 }
-  
+
 .content-collapse.open {
   max-height: 400px;
+}
+
+@media (max-width: 1024px) {
+  .collapse {
+    margin: 30px 75px;
+  }
+
+  .title-collapse {
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .content-collapse {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .collapse {
+    margin: 20px 0px;
+  }
+
+  .title-collapse {
+    height: 30px;
+    font-size: 13px;
+    padding-right: 10px;
+  }
+
+  .title-collapse i {
+    font-size: 18px;
+  }
+
+  .content-collapse {
+    font-size: 14px;
+  }
 }

@@ -1,6 +1,5 @@
 .gallery{
     background-color: #F6F6F6;
-    margin: 0px 100px;
     padding: 50px;;
     border-radius: 25px;
     display: grid;
@@ -8,4 +7,22 @@
     row-gap: 50px;
     column-gap: 50px;
     
+}
+
+
+@media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 480px) {
+  .gallery {
+    background-color: transparent; 
+    padding: 0;                   
+    grid-template-columns: 1fr;   
+    row-gap: 20px;               
+    column-gap: 0;
+  }
 }

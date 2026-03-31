@@ -1,6 +1,6 @@
 .slider {
   position: relative;
-  height: 415px; 
+  height: 415px;
   border-radius: 25px;
   overflow: hidden;
 }
@@ -41,3 +41,25 @@
 .chevron-slider {
   font-size: 64px;
 }
+
+@media (max-width: 1024px) {
+  .slider {
+    height: 300px;
+  }
+
+  .chevron-slider {
+  font-size: 44px;
+}
+}
+
+
+@media (max-width: 480px) {
+  .slider {
+    height: 255px;
+  }
+
+  .chevron-slider {
+  font-size: 24px;
+}
+}
+

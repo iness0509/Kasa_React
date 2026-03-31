@@ -1,6 +1,6 @@
 .kasa-footer {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 209px;
   display: flex;
   align-items: center;
@@ -14,6 +14,19 @@
   font-size: 24px;
 }
 
-.logo{
-    margin-top: 60px;
+.logo {
+  margin-top: 60px;
+}
+
+@media (max-width: 480px) {
+  .kasa-footer {
+    margin-top: 0px;
+  }
+  .footer-content {
+    font-size: 12px;
+    text-align: center;
+    max-width: 30%;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
 }
