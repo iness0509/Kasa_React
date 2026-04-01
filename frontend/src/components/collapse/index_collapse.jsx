@@ -6,7 +6,7 @@ function Collapse({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="collapse">
+    <div className={`collapse ${isOpen ? "open" : ""}`}>
       <div className="title-collapse" onClick={() => setIsOpen(!isOpen)}>
         <h3>{title}</h3>
         <Chevron direction="up" rotated={isOpen} />
